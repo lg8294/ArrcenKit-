@@ -1,7 +1,7 @@
-# 目录
+# Summary
 
 * [简介](README.md)
-* [如何接入ArrcenKit](chapter1.md)
+* [如何接入ArrcenKit](chapter1/iosjie-ru-fang-shi.md)
   * [iOS接入方式](chapter1/iosjie-ru-fang-shi.md)
   * [Android接入方式](chapter1/androidjie-ru-fang-shi.md)
 * [组件](zu-jian.md)
