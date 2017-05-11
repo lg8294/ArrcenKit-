@@ -1,3 +1,4 @@
-# First Chapter
+# 如何接入ArrcenKit
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+1. iOS接入方式
+2. Android接入方式
