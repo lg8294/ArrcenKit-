@@ -11,7 +11,7 @@
 
 ## 组件
 
-* [状态栏](zu-jian/1zhuang-tai-lan.md)
+* [1.状态栏](zu-jian/1zhuang-tai-lan.md)
 * [2.导航](2dao-hang.md)
 * [3.电话](3dian-hua.md)
 * [4.位置](4wei-zhi.md)
