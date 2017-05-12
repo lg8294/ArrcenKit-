@@ -6,12 +6,12 @@
 
 ## 如何接入ArrcenKit
 
-* [iOS接入方式](chapter1/iosjie-ru-fang-shi.md)
-* [Android接入方式](chapter1/androidjie-ru-fang-shi.md)
+* [iOS接入方式](iosjie-ru-fang-shi.md)
+* [Android接入方式](androidjie-ru-fang-shi.md)
 
 ## 组件
 
-* [1.状态栏](zu-jian/1zhuang-tai-lan.md)
+* [1.状态栏](1zhuang-tai-lan.md)
 * [2.导航](2dao-hang.md)
 * [3.电话](3dian-hua.md)
 * [4.位置](4wei-zhi.md)
