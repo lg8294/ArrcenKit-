@@ -6,7 +6,7 @@
 "RedirectUrl"|String|空|登录验证回调地址，业务服务器提供|自定义
 "UserCenterUrl"|String|空|用户中心地址|正式环境：http://ouc.arrcencloud.net<br />开发环境：http://ouc.eaicz.com
 "ProductCategory"|Number|0|产品类别|0：患者服务<br>1：决策支持<br>2：移动医生<br>3：移动护士
-"VerificationMode"|Number|0|登录注册模式|0：验证码登录注册<br>1：密码登录注册|
+"VerificationMode"|Number|0|登录注册模式|0：验证码登录注册<br>1：密码登录注册
 "IM"|Object|空|[IM配置项](#im)|
 "Web"|Object|空|[Web配置项](#web)|
 "UI"|Object|空|[UI配置项](#ui)|
