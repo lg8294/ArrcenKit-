@@ -8,12 +8,12 @@
 "ProductCategory"|Number|0|产品类别|0：患者服务<br>1：决策支持<br>2：移动医生<br>3：移动护士
 "VerificationMode"|Number|0|登录注册模式|0：验证码登录注册<br>1：密码登录注册|
 "IM"|Object|空|[IM配置项](#im)|
-"Web"|Object|空|Web配置项|
-"UI"|Object|空|UI配置项|
-"Map"|Object|空|Map配置项|
-"QQ"|Object|空|QQ配置项|
-"Wechat"|Object|空|微信配置项|
-"Weibo"|Object|空|新浪微博配置项|
+"Web"|Object|空|[Web配置项](#web)|
+"UI"|Object|空|[UI配置项](#ui)|
+"Map"|Object|空|[Map配置项](#map)|
+"QQ"|Object|空|[QQ配置项](#qq)|
+"Wechat"|Object|空|[微信配置项](#wechat)|
+"Weibo"|Object|空|[新浪微博配置项](#weibo)|
 
 <span id="im">`IM` 配置项：<span />
 
@@ -22,7 +22,7 @@
 "Url"|String|空|IM服务地址|正式环境：http://im.arrcencloud.net:7080<br />开发环境：http://eaicz.com:7080
 "Project"|String|空|IM中传的项目名|目前统一使用项目包名
 
-`Web` 配置项：
+<span id="web">`Web` 配置项：<span />
 
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
