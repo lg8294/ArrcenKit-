@@ -1,4 +1,4 @@
-#项目配置项
+# 项目配置项
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
 "DefaultAccount"|String|空|默认账号|自定义
@@ -15,14 +15,14 @@
 "Wechat"|Object|空|[微信配置项](#wechat)|
 "Weibo"|Object|空|[新浪微博配置项](#weibo)|
 
-<span id="im">`IM` 配置项：<span />
+## <span id="im">`IM` 配置项：<span />
 
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
 "Url"|String|空|IM服务地址|正式环境：http://im.arrcencloud.net:7080<br />开发环境：http://eaicz.com:7080
 "Project"|String|空|IM中传的项目名|目前统一使用项目包名
 
-<span id="web">`Web` 配置项：<span />
+## <span id="web">**`Web` 配置项：**<span />
 
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
@@ -31,7 +31,7 @@
 "UserAgreementPath"|String|空|用户协议路径，指在www文件夹中的绝对路径，如：/www/user-agreement/user-agreement.html|自定义
 "DefaultVersion"|String|空|默认www版本|自定义
 
-`UI` 配置项：
+## <span id="ui">`UI` 配置项：<span />
 
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
@@ -46,27 +46,27 @@
 "UpdatePageEndColor"|更新页渐变色结束值
 "ProgressBackgroundColor"|更新页进度块未更新区域颜色
 
-`Map` 配置项：
+##<span id="map">`Map` 配置项：<span />
 
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
 "BaiduApiKey"|百度地图AppKey
 
 
-`QQ` 配置项：
+## <span id="qq">`QQ` 配置项：<span />
 
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
 "QQ":"AppId"|QQSDK AppID
 
-`Wechat` 配置项：
+## <span id="wechat">`Wechat` 配置项：<span />
 
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
 "Wechat":"AppId"|微信SDK AppID
 "Wechat":"AppSecret"|微信SDK AppSecret
 
-`Weibo` 配置项：
+## <span id="weibo">`Weibo` 配置项：<span />
 
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
@@ -74,7 +74,7 @@
 "Weibo":"AppSecret"|微信SDK AppSecret
 "Weibo":"RedirectUrl"|微信SDK 授权回调地址
 
-
+## 示例代码
 ```json
 {
   "DefaultAccount": "",
