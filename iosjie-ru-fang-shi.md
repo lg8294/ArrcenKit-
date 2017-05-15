@@ -60,10 +60,16 @@ int main(int argc, char * argv[]) {
 ```
 
 ### 8.添加项目配置文件
-选择Demo目录，新建文件 `net.arrcencloud.config.json` ，并编辑配置项，如下图：
+选择Demo目录，新建文件 `net.arrcencloud.config.json` ，并编辑[项目配置项](/xiang-mu-pei-zhi-xiang.md)，如下图：
 ![](/image/iOS/6.1.png)
 ![](/image/iOS/6.2.png)
 ![](/image/iOS/6.3.png)
+
+
+配置项如下：
+
+
+
 
 ### 9.修改用户权限和第三方APP回调
 
