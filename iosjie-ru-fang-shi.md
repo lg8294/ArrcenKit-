@@ -1,12 +1,10 @@
-# 如何接入ArrcenKit
+# iOS接入方式
 
-## iOS接入方式
+## 1.下载ArrcenKit.framework
 
-### 1.下载ArrcenKit.framework
+## 2.创建iOS工程
 
-### 2.创建iOS工程
-
-### 3.导入ArrcenKit.framework
+## 3.导入ArrcenKit.framework
 打开工程目录，新建文件夹 `Frameworks` ，复制 `ArrcenKit.framework` 到该文件夹下，效果如下图：
 ![](/image/iOS/1.0.png)
 
@@ -23,17 +21,17 @@
 ![](/image/iOS/1.6.png)
 ![](/image/iOS/1.7.png)
 
-### 4.导入cordova
+## 4.导入cordova
 右键工程目录，选择 `Add Files to "Demo"...` ，在打开的窗口中选择 `Frameworks/ArrcenKit.framework/cordova` 文件夹，点击 `Option` 选项，`Added folders` 选择 `Create folder references` ，点击 `Add` ，效果如下图：
 ![](/image/iOS/2.0.png)
 ![](/image/iOS/2.1.png)
 
-### 5.导入Resources
+## 5.导入Resources
 右键工程目录，选择`Add Files to "Demo"...` ，在打开的窗口中选择 `Frameworks/ArrcenKit.framework/Resources` 文件夹，点击 `Option` 选项，`Added folders` 选择 `Create groups` ，点击 `Add` ，如下图：
 ![](/image/iOS/3.0.png)
 ![](/image/iOS/3.1.png)
 
-### 6.导入工程xcconfig配置文件
+## 6.导入工程xcconfig配置文件
 右键工程目录，选择`Add Files to "Demo"...` ，在打开的窗口中选择 `Frameworks/ArrcenKit.framework/Config` 文件夹，如下图：
 ![](/image/iOS/4.0.png)
 ![](/image/iOS/4.1.png)
@@ -41,7 +39,7 @@
 打开PROJECT-Demo-Info选项，配置Configurations，如下图：
 ![](/image/iOS/4.2.png)
 
-### 7.修改main.m文件
+## 7.修改main.m文件
 打开 Demo-Supporting Files-main.m 文件，修改引入的头文件和代码，如下图：
 ![](/image/iOS/5.0.png)
 ![](/image/iOS/5.1.png)
@@ -59,17 +57,11 @@ int main(int argc, char * argv[]) {
 }
 ```
 
-### 8.添加项目配置文件
+## 8.添加项目配置文件
 选择Demo目录，新建文件 `net.arrcencloud.config.json` ，并编辑[项目配置项](/xiang-mu-pei-zhi-xiang.md)，如下图：
 ![](/image/iOS/6.1.png)
 ![](/image/iOS/6.2.png)
 ![](/image/iOS/6.3.png)
 
-
-配置项如下：
-
-
-
-
-### 9.修改用户权限和第三方APP回调
+## 9.修改用户权限和第三方APP回调
 

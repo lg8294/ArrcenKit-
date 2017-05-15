@@ -4,10 +4,10 @@
 
 * [简介](README.md)
 
-## 如何接入ArrcenKit
+## 环境配置
 
-* [iOS接入方式](iosjie-ru-fang-shi.md)
-* [Android接入方式](androidjie-ru-fang-shi.md)
+* [iOS 接入方式](iosjie-ru-fang-shi.md)
+* [Android 接入方式](androidjie-ru-fang-shi.md)
 * [项目配置项](xiang-mu-pei-zhi-xiang.md)
 
 ## 组件
