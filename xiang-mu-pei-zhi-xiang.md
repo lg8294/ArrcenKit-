@@ -35,44 +35,43 @@
 
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
-"ThemeColor"|String||主题色
-"KeyDownColor"|按键按下去的颜色
-"ProductLogo"|产品Logo
-"ProductEnName"|产品英文名
-"ProductCnName"|产品中文名
-"Copyright"|版权信息
-"StartPage"|启动页（Android）
-"UpdatePageStartColor"|更新页渐变色开始值
-"UpdatePageEndColor"|更新页渐变色结束值
-"ProgressBackgroundColor"|更新页进度块未更新区域颜色
+"ThemeColor"|String|由产品类别确定|主题色|自定义
+"KeyDownColor"|String|由产品类别确定|按键按下去的颜色|自定义
+"ProductLogo"|String|由产品类别确定|登录页面产品Logo图片名|自定义
+"ProductEnName"|String|由产品类别确定|登录页面产品英文名|自定义
+"ProductCnName"|String|由产品类别确定|登录页面产品中文名|自定义
+"Copyright"|String||版权信息|自定义
+"StartPage"|String||启动页（Android有效）|自定义
+"UpdatePageStartColor"|String|由产品类别确定|更新页渐变色开始值|自定义
+"UpdatePageEndColor"|String|由产品类别确定|更新页渐变色结束值|自定义
+"ProgressBackgroundColor"|String|由产品类别确定|更新页进度块未更新区域颜色|自定义
 
-##<span id="map">`Map` 配置项：<span />
+## <span id="map">`Map` 配置项：<span />
 
-键 | 类型 | 默认值 | 描述 | 值
-----|----|----|----|----
-"BaiduApiKey"|百度地图AppKey
-
+键 | 类型 | 默认值 | 描述 
+----|----|----|----
+"BaiduApiKey"|String|空|百度地图AppKey
 
 ## <span id="qq">`QQ` 配置项：<span />
 
-键 | 类型 | 默认值 | 描述 | 值
-----|----|----|----|----
-"QQ":"AppId"|QQSDK AppID
+键 | 类型 | 默认值 | 描述
+----|----|----|----
+"AppId"|String|空|QQSDK AppID
 
 ## <span id="wechat">`Wechat` 配置项：<span />
 
-键 | 类型 | 默认值 | 描述 | 值
-----|----|----|----|----
-"Wechat":"AppId"|微信SDK AppID
-"Wechat":"AppSecret"|微信SDK AppSecret
+键 | 类型 | 默认值 | 描述
+----|----|----|----
+"AppId"|String|空|微信SDK AppID
+"AppSecret"|String|空|微信SDK AppSecret
 
 ## <span id="weibo">`Weibo` 配置项：<span />
 
-键 | 类型 | 默认值 | 描述 | 值
-----|----|----|----|----
-"Weibo":"AppKey"|微信SDK AppKey
-"Weibo":"AppSecret"|微信SDK AppSecret
-"Weibo":"RedirectUrl"|微信SDK 授权回调地址
+键 | 类型 | 默认值 | 描述
+----|----|----|----
+"AppKey"|String|空|微信SDK AppKey
+"AppSecret"|String|空|微信SDK AppSecret
+"RedirectUrl"|String|空|微信SDK 授权回调地址
 
 ## 示例代码
 ```json
