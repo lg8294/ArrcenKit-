@@ -4,19 +4,22 @@
 ## 2.创建Android工程
 
 ## 3.导入libs
-拷贝libs下的文件到工程app/libs目录下，如下图：
-![](/image/Android/2.1-1.png)
-![](/image/Android/2.0.png)
-![](/image/Android/2.2-1.png)
-![](/image/Android/2.3-1.png)
+拷贝 `libs` 下的文件到工程 `app/libs` 目录下，如下图：
+![](/image/Android/2.1.png)
+![](/image/Android/2.2.png)
 
 ## 4.导入jniLibs
-拷贝jniLibs文件夹到工程app/src/main目录下，如下图：
-![](/image/Android/3.0-1.png)
-![](/image/Android/3.1-1.png)
-![](/image/Android/3.2-1.png)
+拷贝 `jniLibs` 文件夹到工程 `app/src/main` 目录下，如下图：
+![](/image/Android/3.0.png)
+![](/image/Android/3.1.png)
 
-## 配置app下的build.gradle
+## 5.导入wxapi
+拷贝 `wxapi` 文件夹到工程 `app/src/main/java/{包名}` 目录下，如下图：
+![](/image/Android/9.1.png)
+![](/image/Android/9.0.png)
+![](/image/Android/9.2.png)
+
+## 6.配置app下的build.gradle
 添加
 
 ```
@@ -50,15 +53,12 @@
 ```
 
 最终效果如下图：
-![](/image/Android/14888549553239.jpg)
-![](/image/Android/14888549265926.jpg)
+![](/image/Android/4.0.png)
+![](/image/Android/4.1.png)
 
-## 配置AndroidManifest.xml
-`manifest` 中添加下面的代码：
-
+## 7.修改AndroidManifest.xml
+用下面的代码覆盖 `activity` ：
 ```xml
-<application
-    ...
     <activity
         android:name="com.arrcen.framework.ui.StartActivity"
         android:launchMode="singleTop"
@@ -70,27 +70,48 @@
         </intent-filter>
     </activity>
     
-    <meta-data        android:name="com.baidu.lbsapi.API_KEY"        android:value="Your Key" />    <meta-data        android:name="JPUSH_APPKEY"        android:value="Your Key" />
-</application>
+    <activity
+        android:name="com.tencent.tauth.AuthActivity"
+        android:launchMode="singleTask"
+        android:noHistory="true">
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            
+            <data android:scheme="tencent1106031424" />
+        </intent-filter>
+    </activity>
+```
+
+在 `application` 中添加以下代码：
+
+```xml
+    <meta-data
+        android:name="com.baidu.lbsapi.API_KEY"
+        android:value="Your Key" />
+    <meta-data
+        android:name="JPUSH_APPKEY"
+        android:value="Your Key" />
 ```
 
 最终效果如下图：
-![](/image/Android/14888548077171.jpg)
+![](/image/Android/5.0.png)
+![](/image/Android/5.1.png)
 
-## 配置gradle.properites
+## 8.配置gradle.properites
 添加  `android.useDeprecatedNdk=true`
-![](/image/Android/14888549936546.jpg)
+![](/image/Android/6.0.png)
 
-## 添加配置文件
-在 `assets` 中新建 `net.arrcencloud.config.json` 配置文件，并编辑[项目配置项](/xiang-mu-pei-zhi-xiang.md)，如下图：
+## 9.添加项目配置文件
+在工程 `app/main` 目录下新建 `assets` 文件夹：
+![](/image/Android/7.0.png)
+![](/image/Android/7.1.png)
 
+然后在 `assets` 中新建 `net.arrcencloud.config.json` 配置文件，并编辑[项目配置项](/xiang-mu-pei-zhi-xiang.md)，如下图：
+![](/image/Android/8.0.png)
+![](/image/Android/8.1.png)
 
-## 导入www.zip文件
-在工程app/main目录下新建assets文件夹：
-![](/image/Android/5.1-1.png)
-![](/image/Android/5.2-1.png)
-![](/image/Android/5.3-1.png)
-
-拷贝www.zip到assets目录下：
-![](/image/Android/5.4-1.png)
-![](/image/Android/5.5.png)
+## 10.导入www.zip文件
+拷贝www.zip到 `assets` 目录下。

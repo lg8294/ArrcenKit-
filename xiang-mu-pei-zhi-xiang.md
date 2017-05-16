@@ -89,7 +89,7 @@
   
   "Web": {
     "BusinessUrl": "",
-    "GuidePath": "www/loadpage",
+    "GuidePath": "/www/loadpage",
     "UserAgreementPath": "/www/user-agreement/user-agreement.html",
     "DefaultVersion":"1.0"
   },
