@@ -7,16 +7,23 @@
   "plugins": [
     "edit-link", 
     "-fontsettings", 
-    "github"
+    
+    "-lunr", "-search", "search-plus",
+    
+    "prism",
+    "-highlight",
   ],
   "pluginsConfig": {
     "edit-link": {
       "base": "https://github.com/vuejs/vue-router/edit/dev/docs",
       "label": "Edit This Page"
     },
-    "github": {
-      "url": "https://github.com/vuejs/vue-router/"
-    }
+    
+    "prism": {
+        "css": [
+            "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+        ]
+    },
   },
   "links": {
     "sharing": {
