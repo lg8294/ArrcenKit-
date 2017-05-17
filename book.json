@@ -5,6 +5,8 @@
   "language": "zh-hans",
   "root": ".",
   "plugins": [
+    "-fontsettings",
+    "-sharing",
     "splitter",
     "-lunr", "-search", "search-plus",
     "-highlight", "prism", "prism-themes"
