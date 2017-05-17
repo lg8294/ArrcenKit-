@@ -15,7 +15,7 @@
 "Wechat"|Object|空|[微信配置项](#Wechat配置项)|
 "Weibo"|Object|空|[新浪微博配置项](#Weibo配置项)|
 
-## IM配置项<span id="im" />
+## IM配置项<span id="im"><span />
 
 键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
