@@ -3,12 +3,11 @@
 
 ## 方法
 * [IMClient.regist](#验证用户)：验证用户
-* IMClient.receiveMessage
-* IMClient.sendChatMessage
-* IMClient.sendRoomMessage
-* IMClient.sendRoomMessage
-* IMClient.sendFriendApply
-* IMClient.sendFriendApply
+* [IMClient.receiveMessage](#接收消息回调)：接收消息回调
+* [IMClient.sendChatMessage](#发送单聊消息)：发送单聊消息
+* [IMClient.sendRoomMessage](#发送群聊消息)：发送群聊消息
+* [IMClient.sendRoomMessage](#发送通知消息)：发送通知消息
+* [IMClient.sendFriendApply](#发送好友请求)：发送好友请求
 
 ### 验证用户
 **说明：**前端不要调用，框架已经包含了用户验证功能。
@@ -32,15 +31,16 @@ failedCB | `Function` | 失败回调
     });
 ```
 
-### 消息接收回调
-`IMClient.receiveMessage(receiveCB, errorCB)`
+### 接收消息回调
+**用法：**`IMClient.receiveMessage(receiveCB, errorCB)`
+**参数：**
 
 option | 描述
 --- | ---
 receiveCB | `function` 接收回调
 failedCB | `function` 失败回调
 
-example:
+**示例：**
 
 ```js
     IMClient.receiveMessage(function(msgObj){
@@ -51,7 +51,8 @@ example:
 ```
 
 ### 发送单聊消息
-`IMClient.sendChatMessage(msg, msgType, targetId, project, voiceLength, successCB, failedCB)`
+**用法：**`IMClient.sendChatMessage(msg, msgType, targetId, project, voiceLength, successCB, failedCB)`
+**参数：**
 
 option | 描述
 --- | ---
@@ -63,7 +64,7 @@ voiceLength | `int` 语音消息时间长度，在发送语音消息时有效，
 successCB | `function` 成功回调
 failedCB | `function` 失败回调
 
-example:
+**示例：**
 
 ```js
     IMClient.sendChatMessage("hello world",'text',"15196614938","net.arrcencloud.demo",0,function (successObj) {
@@ -74,7 +75,8 @@ example:
 ```
 
 ### 发送群聊消息
-`IMClient.sendRoomMessage(msg, msgType, targetId, pass, voiceLength, successCB, failedCB)`
+**用法：**`IMClient.sendRoomMessage(msg, msgType, targetId, pass, voiceLength, successCB, failedCB)`
+**参数：**
 
 option | 描述
 --- | ---
@@ -86,7 +88,7 @@ voiceLength | `int` 语音消息时间长度，在发送语音消息时有效，
 successCB | `function` 成功回调
 failedCB | `function` 失败回调
 
-example:
+**示例：**
 
 ```js
     IMClient.sendRoomMessage("hello world",'text',"12345678","12345678",0,function (successObj) {
@@ -97,7 +99,8 @@ example:
 ```
 
 ### 发送通知消息
-`IMClient.sendInformsMessage(msg, msgType, targetIds, project, title, pushType, successCB, failedCB)`
+**用法：**`IMClient.sendInformsMessage(msg, msgType, targetIds, project, title, pushType, successCB, failedCB)`
+**参数：**
 
 option | 描述
 --- | ---
@@ -110,7 +113,7 @@ pushType | `string` 通知类型 值由业务定义 比如新闻的值为news
 successCB | `function` 成功回调
 failedCB | `function` 失败回调
 
-example:
+**示例：**
 
 ```js
     IMClient.sendInformsMessage("hello world",'text',["15196614938","18381674033"],"net.arrcencloud.demo",'通知标题', 'NEWS', function (successObj) {
@@ -121,7 +124,8 @@ example:
 ```
 
 ### 发送好友请求
-`IMClient.sendFriendApply(msg, ftype, targetId, project, successCB, failedCB)`
+**用法：**`IMClient.sendFriendApply(msg, ftype, targetId, project, successCB, failedCB)`
+**参数：**
 
 option | 描述
 --- | ---
@@ -133,7 +137,7 @@ voiceLength | `int` 语音消息时间长度，在发送语音消息时有效，
 successCB | `function` 成功回调
 failedCB | `function` 失败回调
 
-example:
+**示例：**
 
 ```js
     IMClient.sendFriendApply("hello world","friend","15196614938","net.arrcencloud.demo",function (successObj) {
