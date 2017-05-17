@@ -1,3 +1,4 @@
+# 
 ## 1.状态栏
 **模块名称：==StatusBar==**
 [ngcordova](https://www.npmjs.com/package/cordova-plugin-statusbar)
