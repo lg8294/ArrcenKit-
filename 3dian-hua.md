@@ -3,14 +3,14 @@
 
 ****
 
-## 方法
+### 方法
 * DialPhone.dial
 * DialPhone.getAllContacts
 * DialPhone.showAddressbook
 
 ****
 
-## 拨打电话
+### 拨打电话
 
 `DialPhone.dial("电话号码", successCB, failedCB)`
 
@@ -26,7 +26,7 @@ example:
 
 ****
 
-## 获取通讯录
+### 获取通讯录
 `DialPhone.getAllContacts(successCB, failedCB)`
 
 ```js
@@ -56,7 +56,7 @@ example:
 
 ****
 
-## 打开通讯录
+### 打开通讯录
 `DialPhone.showAddressbook(successCB, failedCB)`
 
 example:

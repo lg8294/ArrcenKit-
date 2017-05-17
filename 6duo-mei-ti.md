@@ -5,14 +5,14 @@
 
 ****
 
-## 方法
+### 方法
 * navigator.device.capture.captureAudio
 * navigator.device.capture.captureImage
 * navigator.device.capture.captureVideo
 
 ****
 
-## 拍照
+### 拍照
 `navigator.device.capture.captureImage(successCB, failedCB[, options])`
 
 `options` 可选项：
@@ -44,7 +44,7 @@ example:
 ```
 ****
 
-## 录制视频
+### 录制视频
 `navigator.device.capture.captureVideo(successCB, failedCB[, options])`
 
 `options` 可选项：
@@ -77,7 +77,7 @@ example:
 ```
 ****
 
-## 录制音频
+### 录制音频
 `navigator.device.capture.captureAudio(successCB, failedCB[, options])`
 
 `options` 可选项：

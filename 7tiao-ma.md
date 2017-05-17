@@ -5,13 +5,13 @@
 
 ****
 
-## 方法
+### 方法
 * BarcodeScanner.scan
 * BarcodeScanner.encode
 
 ****
 
-## 扫码
+### 扫码
 `BarcodeScanner.scan(successCB, failedCB[, options])`
 
 `options` 可选项：
@@ -47,7 +47,7 @@ example:
 
 ****
 
-## 生成
+### 生成
 `BarcodeScanner.encode(type, data, successCB, failedCB[, options])`
 
 `type` 可选项：

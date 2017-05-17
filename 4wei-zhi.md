@@ -3,7 +3,7 @@
 
 ****
 
-## 方法
+### 方法
 
 * BaiduMap.getLocation
 * BaiduMap.getNearList
@@ -12,7 +12,7 @@
 
 ****
 
-## 获取当前位置（精确）
+### 获取当前位置（精确）
 `BaiduMap.getLocation(successCB, failedCB)`
 
 ```js
@@ -60,7 +60,7 @@ example:
 
 ****
 
-## 获取附近POI列表
+### 获取附近POI列表
 `BaiduMap.getNearList(successCB, failedCB)`
 
 ```js
@@ -105,7 +105,7 @@ example:
 
 ****
 
-## 获取区县位置（粗略）
+### 获取区县位置（粗略）
 `BaiduMap.getDistrict(successCB, failedCB)`
 
 example:
@@ -120,7 +120,7 @@ example:
 
 ****
 
-## 选择位置
+### 选择位置
 `BaiduMap.selectLocation(options ,successCB, failedCB)`
 
 `options` 可选项：

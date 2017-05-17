@@ -5,12 +5,12 @@
 
 ****
 
-## 方法
+### 方法
 * window.imagePicker.getPictures
 
 ****
 
-## 选择图片
+### 选择图片
 `window.imagePicker.getPictures(successCB, failureCB[, options])`
 
 `options` 可选项：

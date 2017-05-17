@@ -12,14 +12,14 @@ soundObj = {
 
 ****
 
-## 方法
+### 方法
 * Setting.getMessageAlertSoundList
 * Setting.setSoundAlert
 * Setting.setVibrateAlert
 * Setting.setMessageAlertSound
 * Setting.playSound
 
-## 获取消息提醒声音列表
+### 获取消息提醒声音列表
 `Setting.getMessageAlertSoundList(successCB, failedCB)`
     
 ```js
@@ -47,7 +47,7 @@ example:
 
 ****
 
-## 设置声音提醒是否打开
+### 设置声音提醒是否打开
 `Setting.setSoundAlert(enable, successCB, errorCB)`
 
 `enable` 可选项：
@@ -67,7 +67,7 @@ example:
 
 ****
 
-## 设置震动是否打开
+### 设置震动是否打开
 `Setting.setVibrateAlert(enable, successCB, errorCB)`
 
 `enable` 可选项：
@@ -87,7 +87,7 @@ example:
 
 ****
 
-## 设置消息提醒声音
+### 设置消息提醒声音
 `Setting.setMessageAlertSound(soundObj, successCB, errorCB)`
 
 example:
@@ -100,7 +100,7 @@ example:
     });
 ```
 
-## 播放提醒音
+### 播放提醒音
 `Setting.playSound(soundObj)`
 
 example:
