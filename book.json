@@ -40,7 +40,7 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "sectionx": {
-            "tag": "h3"
+            "tag": "b"
         },
         "simple-page-toc": {
             "maxDepth": 3,
