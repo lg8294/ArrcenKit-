@@ -18,7 +18,7 @@
         "-sectionx",
         "-simple-page-toc",
         "-anchor-navigation-ex",
-        "-theme-comscore",
+        "theme-comscore",
         "donate",
         "-include-codeblock"
     ],
