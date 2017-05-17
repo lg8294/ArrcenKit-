@@ -3,14 +3,10 @@
 [ngcordova](http://ngcordova.com/docs/plugins/capture/)
 [使用说明](https://github.com/apache/cordova-plugin-media-capture)
 
-****
-
 ## 方法
 * navigator.device.capture.captureAudio
 * navigator.device.capture.captureImage
 * navigator.device.capture.captureVideo
-
-****
 
 ### 拍照
 `navigator.device.capture.captureImage(successCB, failedCB[, options])`
@@ -42,7 +38,6 @@ example:
     // start image capture
     navigator.device.capture.captureImage(captureSuccess, captureError);
 ```
-****
 
 ### 录制视频
 `navigator.device.capture.captureVideo(successCB, failedCB[, options])`
@@ -75,7 +70,6 @@ example:
     // start video capture
     navigator.device.capture.captureVideo(captureSuccess, captureError);
 ```
-****
 
 ### 录制音频
 `navigator.device.capture.captureAudio(successCB, failedCB[, options])`
@@ -107,6 +101,5 @@ example:
     // start audio capture
     navigator.device.capture.captureAudio(captureSuccess, captureError);
 ```
-****
 
 

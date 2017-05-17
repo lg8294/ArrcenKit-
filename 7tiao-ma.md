@@ -3,13 +3,9 @@
 [ngcordova](http://ngcordova.com/docs/plugins/barcodeScanner/)
 [使用说明](https://github.com/phonegap/phonegap-plugin-barcodescanner)
 
-****
-
 ## 方法
 * BarcodeScanner.scan
 * BarcodeScanner.encode
-
-****
 
 ### 扫码
 `BarcodeScanner.scan(successCB, failedCB[, options])`
@@ -44,8 +40,6 @@ example:
         "orientation" : "landscape" // Android only (portrait|landscape), default unset so it rotates with the device
     });
 ```
-
-****
 
 ### 生成
 `BarcodeScanner.encode(type, data, successCB, failedCB[, options])`

@@ -1,15 +1,11 @@
 # 导航
 **模块名称：Navigation**
 
-****
-
 ## 方法
 * Navigation.logout
 * Navigation.changePassword
 * Navigation.getCookie
 * Navigation.setOrientation
-
-****
 
 ### 退出登录
 `Navigation.logout(successCB, failedCB)`
@@ -24,8 +20,6 @@ example:
     });
 ```
 
-****
-
 ### 密码修改
 `Navigation.changePassword(successCB, failedCB)`
 
@@ -39,8 +33,6 @@ example:
     });
 ```
 
-****
-
 ### 获取cookie（iOS）
 `Navigation.getCookie(successCB, failedCB)`
 
@@ -53,8 +45,6 @@ example:
         console.log(JSON.stringify(errorObj));
     });
 ```
-
-****
 
 ### 设置屏幕方向
 `Navigation.setOrientation(orientation,successCB, failedCB)`
@@ -78,5 +68,3 @@ example:
         console.log(JSON.stringify(errorObj));
     });
 ```
-
-****

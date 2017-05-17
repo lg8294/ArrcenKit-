@@ -1,14 +1,10 @@
 # 电话
 **模块名称：DialPhone**
 
-****
-
 ## 方法
 * DialPhone.dial
 * DialPhone.getAllContacts
 * DialPhone.showAddressbook
-
-****
 
 ### 拨打电话
 
@@ -23,8 +19,6 @@ example:
     	alert('拨号失败'+ JSON.stringify(errorObj));
     })
 ```
-
-****
 
 ### 获取通讯录
 `DialPhone.getAllContacts(successCB, failedCB)`
@@ -54,8 +48,6 @@ example:
     })
 ```
 
-****
-
 ### 打开通讯录
 `DialPhone.showAddressbook(successCB, failedCB)`
 
@@ -68,6 +60,4 @@ example:
     	alert('失败'+ JSON.stringify(errorObj));
     })
 ```
-
-****
 

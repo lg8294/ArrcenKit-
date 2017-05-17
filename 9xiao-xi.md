@@ -1,8 +1,6 @@
 # 消息
 **模块名称：IMClient**
 
-****
-
 ## 方法
 * IMClient.regist
 * IMClient.receiveMessage
@@ -32,8 +30,6 @@ example:
     });
 ```
 
-****
-
 ### 消息接收回调
 `IMClient.receiveMessage(receiveCB, errorCB)`
 
@@ -51,8 +47,6 @@ example:
         alert(JSON.stringify(error));
     });
 ```
-
-****
 
 ### 发送单聊消息
 `IMClient.sendChatMessage(msg, msgType, targetId, project, voiceLength, successCB, failedCB)`
@@ -77,8 +71,6 @@ example:
     });
 ```
 
-****
-
 ### 发送群聊消息
 `IMClient.sendRoomMessage(msg, msgType, targetId, pass, voiceLength, successCB, failedCB)`
 
@@ -101,8 +93,6 @@ example:
         alert(JSON.stringify(error));;
     });
 ```
-
-****
 
 ### 发送通知消息
 `IMClient.sendInformsMessage(msg, msgType, targetIds, project, title, pushType, successCB, failedCB)`
@@ -128,8 +118,6 @@ example:
     });
 ```
 
-****
-
 ### 发送好友请求
 `IMClient.sendFriendApply(msg, ftype, targetId, project, successCB, failedCB)`
 
@@ -152,6 +140,4 @@ example:
        alert(JSON.stringify(error));;
     });
 ```
-
-****
 

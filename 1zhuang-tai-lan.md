@@ -3,13 +3,9 @@
 [ngcordova](https://www.npmjs.com/package/cordova-plugin-statusbar)
 [使用说明](https://github.com/apache/cordova-plugin-statusbar)
 
-****
-
 ## 属性
 
 * StatusBar.isVisible
-
-****
 
 ## 方法
 
@@ -23,8 +19,6 @@
 * StatusBar.hide
 * StatusBar.show
 
-****
-
 ### 状态栏文本颜色
 example:
 
@@ -33,8 +27,6 @@ example:
     StatusBar.styleLightContent(); // 白色文本
 ```
 
-****
-
 ### 状态栏颜色
 example:
 
@@ -42,8 +34,6 @@ example:
     StatusBar.backgroundColorByHexString("#333"); // => #333333
     StatusBar.backgroundColorByHexString("#FAB"); // => #FFAABB
 ```
-
-****
 
 ### 状态栏隐藏和显示
 
@@ -58,5 +48,3 @@ example - 显示:
 ```js
     StatusBar.show();//显示
 ```
-
-****

@@ -3,12 +3,8 @@
 [ngcordova](http://ngcordova.com/docs/plugins/imagePicker)
 [使用说明](https://github.com/wymsee/cordova-imagePicker)
 
-****
-
 ## 方法
 * window.imagePicker.getPictures
-
-****
 
 ### 选择图片
 `window.imagePicker.getPictures(successCB, failureCB[, options])`
@@ -49,7 +45,5 @@ example - Get at most 10 images scaled to width of 800:
       width: 800
     });
 ```
-
-****
 
 

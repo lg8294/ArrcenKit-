@@ -1,11 +1,7 @@
 # 分享
 **模块名称：Share**
 
-****
-
-### 消息对象
-
-****
+## 消息对象
 
 ## 方法
 * Share.send
@@ -42,6 +38,4 @@ example:
 		alert(JSON.stringify(error));
 	});
 ```
-
-****
 

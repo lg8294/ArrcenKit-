@@ -1,16 +1,12 @@
 # 位置
 **模块名称：BaiduMap**
 
-****
-
 ## 方法
 
 * BaiduMap.getLocation
 * BaiduMap.getNearList
 * BaiduMap.getDistrict
 * BaiduMap.selectLocation
-
-****
 
 ### 获取当前位置（精确）
 `BaiduMap.getLocation(successCB, failedCB)`
@@ -58,8 +54,6 @@ example:
     });
 ```
 
-****
-
 ### 获取附近POI列表
 `BaiduMap.getNearList(successCB, failedCB)`
 
@@ -103,8 +97,6 @@ example:
     });
 ```
 
-****
-
 ### 获取区县位置（粗略）
 `BaiduMap.getDistrict(successCB, failedCB)`
 
@@ -117,8 +109,6 @@ example:
     	alert(JSON.stringify(error));
     });
 ```
-
-****
 
 ### 选择位置
 `BaiduMap.selectLocation(options ,successCB, failedCB)`
@@ -142,6 +132,4 @@ example:
     	alert(JSON.stringify(error));
     });
 ```
-
-****
 
