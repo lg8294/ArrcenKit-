@@ -1,5 +1,5 @@
 # 多媒体
-**模块名称：==capture==**
+**模块名称：capture**
 [ngcordova](http://ngcordova.com/docs/plugins/capture/)
 [使用说明](https://github.com/apache/cordova-plugin-media-capture)
 

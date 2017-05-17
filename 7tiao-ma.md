@@ -1,5 +1,5 @@
 # 条码、二维码
-**模块名称：==BarcodeScanner==**
+**模块名称：BarcodeScanner**
 [ngcordova](http://ngcordova.com/docs/plugins/barcodeScanner/)
 [使用说明](https://github.com/phonegap/phonegap-plugin-barcodescanner)
 

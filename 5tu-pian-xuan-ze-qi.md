@@ -1,5 +1,5 @@
 # 图片选择器
-**模块名称：==imagePicker==**
+**模块名称：imagePicker**
 [ngcordova](http://ngcordova.com/docs/plugins/imagePicker)
 [使用说明](https://github.com/wymsee/cordova-imagePicker)
 
