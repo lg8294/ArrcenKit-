@@ -10,16 +10,18 @@
     "plugins": [
         "-fontsettings",
         "-sharing",
+        
         "splitter",
         "-lunr", "-search", "search-plus",
         "-highlight", "prism", "prism-themes",
+        "theme-comscore",
+        "donate",
         "tbfed-pagefooter",
+        
         "-expandable-chapters-small",
         "-sectionx",
         "-simple-page-toc",
         "-anchor-navigation-ex",
-        "theme-comscore",
-        "donate",
         "-include-codeblock"
     ],
     "pluginsConfig": {
