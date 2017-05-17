@@ -71,7 +71,7 @@
             "wechatText": "微信打赏"
         },
         "include-codeblock": {
-            "template": "ace",
+            "template": "default",
             "unindent": true,
             "theme": "monokai"
         }
