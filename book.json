@@ -14,7 +14,7 @@
     "sectionx",
     "-simple-page-toc",
     "anchor-navigation-ex",
-    "theme-comscore"
+    "-theme-comscore"
   ],
   "pluginsConfig": {
     "fontsettings": {
