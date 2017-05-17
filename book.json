@@ -1,83 +1,86 @@
 
 {
-  "gitbook": ">3.0.0",
-  "author": "lg",
-  "language": "zh-hans",
-  "root": ".",
-  "plugins": [
-    "-fontsettings",
-    "-sharing",
-    "splitter",
-    "-lunr", "-search", "search-plus",
-    "-highlight", "prism", "prism-themes",
-    "tbfed-pagefooter",
-    "expandable-chapters-small",
-    "sectionx",
-    "-simple-page-toc",
-    "anchor-navigation-ex",
-    "theme-comscore",
-    "donate"
-  ],
-  "pluginsConfig": {
-    "fontsettings": {
-        "theme": "sepia",
-        "family": "serif",
-        "size": 1
-    },
-    "prism": {
-        "css": [
-            "prism-themes/themes/prism-xonokai.css"
-        ]
-    },
-    "tbfed-pagefooter": {
-        "copyright":"Copyright &copy www.arrcen.com 2017",
-        "modify_label": "该文件修订时间：",
-        "modify_format": "YYYY-MM-DD HH:mm:ss"
-    },
-    "sectionx": {
-        "tag": "b"
-    },
-    "simple-page-toc": {
-        "maxDepth": 3,
-        "skipFirstH1": true
-    },
-    "anchor-navigation-ex": {
-        "showLevel": true,
-        "associatedWithSummary": true,
-        "mode": "float",
-        "float": {
-            "showLevelIcon": false,
-            "level1Icon": "fa fa-hand-o-right",
-            "level2Icon": "fa fa-hand-o-right",
-            "level3Icon": "fa fa-hand-o-right"
+    "gitbook": ">3.0.0",
+    "author": "lg",
+    "language": "zh-hans",
+    "root": ".",
+    "plugins": [
+        "-fontsettings",
+        "-sharing",
+        "splitter",
+        "-lunr", "-search", "search-plus",
+        "-highlight", "prism", "prism-themes",
+        "tbfed-pagefooter",
+        "expandable-chapters-small",
+        "sectionx",
+        "-simple-page-toc",
+        "anchor-navigation-ex",
+        "theme-comscore",
+        "donate"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
         },
-        "pageTop": {
-            "showLevelIcon": false,
-            "level1Icon": "fa fa-hand-o-right",
-            "level2Icon": "fa fa-hand-o-right",
-            "level3Icon": "fa fa-hand-o-right"
+        "fontsettings": {
+            "theme": "sepia",
+            "family": "serif",
+            "size": 1
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-xonokai.css"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy www.arrcen.com 2017",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sectionx": {
+            "tag": "b"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "anchor-navigation-ex": {
+            "showLevel": true,
+            "associatedWithSummary": true,
+            "mode": "float",
+            "float": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        },
+        "donate": {
+            "wechat": "http://i4.buimg.com/588926/c1208f246c7da952.png",
+            "alipay": "http://i4.buimg.com/588926/6a897e7be7d62e68.png",
+            "title": "",
+            "button": "赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
         }
     },
-    "donate": {
-        "wechat": "http://i4.buimg.com/588926/c1208f246c7da952.png",
-        "alipay": "http://i4.buimg.com/588926/6a897e7be7d62e68.png",
-        "title": "",
-        "button": "赏",
-        "alipayText": "支付宝打赏",
-        "wechatText": "微信打赏"
+    "links": {
+        "sharing": {
+            "weibo": true,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "weibo"
+            ]
+        }
     }
-  },
-  "links": {
-    "sharing": {
-      "weibo": true,
-      "facebook": false,
-      "twitter": false,
-      "google": false,
-      "instapaper": false,
-      "vk": false,
-      "all": [
-        "weibo"
-      ]
-    }
-  }
 }
