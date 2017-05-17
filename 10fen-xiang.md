@@ -7,8 +7,9 @@
 * [Share.send](#发送分享)：发送分享
 
 ### 发送分享
-**用法：**`Share.send(type, msgObj, successCB, failedCB)`
+**用法：**`Share.send(type, msgObj, successCB, failedCB)`  
 **参数：**
+
 `type` 可选项：
 
 * Share.ServiceType.QQ

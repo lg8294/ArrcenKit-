@@ -7,7 +7,7 @@
 * [DialPhone.showAddressbook](#打开通讯录)：打开通讯录
 
 ### 拨打电话
-**用法：**`DialPhone.dial("电话号码", successCB, failedCB)`
+**用法：**`DialPhone.dial("电话号码", successCB, failedCB)`  
 **示例：**
 
 ```js
@@ -19,7 +19,7 @@
 ```
 
 ### 获取通讯录中所有联系人
-**用法：**`DialPhone.getAllContacts(successCB, failedCB)`
+**用法：**`DialPhone.getAllContacts(successCB, failedCB)`  
 
 ```js
     //联系人对象
@@ -47,7 +47,7 @@
 ```
 
 ### 打开通讯录
-**用法：**`DialPhone.showAddressbook(successCB, failedCB)`
+**用法：**`DialPhone.showAddressbook(successCB, failedCB)`  
 **示例：**
 
 ```js

@@ -8,8 +8,9 @@
 * [BarcodeScanner.encode](#生成码)：生成码
 
 ### 扫码
-**用法：**`BarcodeScanner.scan(successCB, failedCB[, options])`
+**用法：**`BarcodeScanner.scan(successCB, failedCB[, options])`  
 **参数：**
+
 `options` 可选项：
 
     key | 描述
@@ -42,8 +43,9 @@
 ```
 
 ### 生成码
-**用法：**`BarcodeScanner.encode(type, data, successCB, failedCB[, options])`
+**用法：**`BarcodeScanner.encode(type, data, successCB, failedCB[, options])`  
 **参数：**
+
 `type` 可选项：
 
 * BarcodeScanner.Encode.TEXT_TYPE

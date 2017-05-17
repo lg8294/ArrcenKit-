@@ -10,8 +10,8 @@
 * [IMClient.sendFriendApply](#发送好友请求)：发送好友请求
 
 ### 验证用户
-**说明：**前端不要调用，框架已经包含了用户验证功能。
-**用法：**`IMClient.regist(targetId, project, successCB, failedCB)`
+**说明：**前端不要调用，框架已经包含了用户验证功能。  
+**用法：**`IMClient.regist(targetId, project, successCB, failedCB)`  
 **参数：**
 
 option | 类型 | 描述
@@ -32,7 +32,7 @@ failedCB | `Function` | 失败回调
 ```
 
 ### 接收消息回调
-**用法：**`IMClient.receiveMessage(receiveCB, errorCB)`
+**用法：**`IMClient.receiveMessage(receiveCB, errorCB)`  
 **参数：**
 
 option | 描述
@@ -51,7 +51,7 @@ failedCB | `function` 失败回调
 ```
 
 ### 发送单聊消息
-**用法：**`IMClient.sendChatMessage(msg, msgType, targetId, project, voiceLength, successCB, failedCB)`
+**用法：**`IMClient.sendChatMessage(msg, msgType, targetId, project, voiceLength, successCB, failedCB)`  
 **参数：**
 
 option | 描述
@@ -75,7 +75,7 @@ failedCB | `function` 失败回调
 ```
 
 ### 发送群聊消息
-**用法：**`IMClient.sendRoomMessage(msg, msgType, targetId, pass, voiceLength, successCB, failedCB)`
+**用法：**`IMClient.sendRoomMessage(msg, msgType, targetId, pass, voiceLength, successCB, failedCB)`  
 **参数：**
 
 option | 描述
@@ -99,7 +99,7 @@ failedCB | `function` 失败回调
 ```
 
 ### 发送通知消息
-**用法：**`IMClient.sendInformsMessage(msg, msgType, targetIds, project, title, pushType, successCB, failedCB)`
+**用法：**`IMClient.sendInformsMessage(msg, msgType, targetIds, project, title, pushType, successCB, failedCB)`  
 **参数：**
 
 option | 描述
@@ -124,7 +124,7 @@ failedCB | `function` 失败回调
 ```
 
 ### 发送好友请求
-**用法：**`IMClient.sendFriendApply(msg, ftype, targetId, project, successCB, failedCB)`
+**用法：**`IMClient.sendFriendApply(msg, ftype, targetId, project, successCB, failedCB)`  
 **参数：**
 
 option | 描述

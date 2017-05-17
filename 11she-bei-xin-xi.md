@@ -5,7 +5,7 @@
 * [Device.getInfo](#获取设备信息)：获取设备信息
 
 ### 获取设备信息
-**用法：**`Device.getInfo(successCB, failedCB)`
+**用法：**`Device.getInfo(successCB, failedCB)`  
 **示例：**
 
 ```js

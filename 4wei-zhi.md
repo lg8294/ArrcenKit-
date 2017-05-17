@@ -9,8 +9,8 @@
 * [BaiduMap.selectLocation](#选择位置)：选择位置
 
 ### 获取当前位置
-**说明：**误差控制在10米内。
-**用法：**`BaiduMap.getLocation(successCB, failedCB)`
+**说明：**误差控制在10米内。  
+**用法：**`BaiduMap.getLocation(successCB, failedCB)`  
 
 ```js
     // 位置信息对象
@@ -56,7 +56,7 @@
 ```
 
 ### 获取附近POI列表
-**用法：**`BaiduMap.getNearList(successCB, failedCB)`
+**用法：**`BaiduMap.getNearList(successCB, failedCB)`  
 
 ```js
     // POI对象
@@ -99,8 +99,8 @@
 ```
 
 ### 获取区县位置
-**说明：**粗略的获取大致位置，对精度不做要求。
-**用法：**`BaiduMap.getDistrict(successCB, failedCB)`
+**说明：**粗略的获取大致位置，对精度不做要求。  
+**用法：**`BaiduMap.getDistrict(successCB, failedCB)`  
 **示例：**
 
 ```js
@@ -112,8 +112,9 @@
 ```
 
 ### 选择位置
-**用法：**`BaiduMap.selectLocation(options ,successCB, failedCB)`
+**用法：**`BaiduMap.selectLocation(options ,successCB, failedCB)`  
 **参数：**
+
 `options` 可选项：
 
     key | type | 默认值 | 描述

@@ -18,7 +18,7 @@ soundObj = {
 * [Setting.playSound](#播放指定提醒音)：播放指定提醒音
 
 ### 获取消息提醒声音列表
-**用法：**`Setting.getMessageAlertSoundList(successCB, failedCB)`
+**用法：**`Setting.getMessageAlertSoundList(successCB, failedCB)`  
     
 ```js
     //成功对象
@@ -44,8 +44,9 @@ soundObj = {
 ```
 
 ### 设置声音提醒开关
-**用法：**`Setting.setSoundAlert(enable, successCB, errorCB)`
+**用法：**`Setting.setSoundAlert(enable, successCB, errorCB)`  
 **参数：**
+
 `enable` 可选项：
 
 * true：打开声音提醒
@@ -62,8 +63,9 @@ soundObj = {
 ```
 
 ### 设置震动开关
-**用法：**`Setting.setVibrateAlert(enable, successCB, errorCB)`
+**用法：**`Setting.setVibrateAlert(enable, successCB, errorCB)`  
 **参数：**
+
 `enable` 可选项：
 
 * true：打开震动提醒
@@ -80,7 +82,7 @@ soundObj = {
 ```
 
 ### 设置指定提醒音为当前消息提醒音
-**用法：**`Setting.setMessageAlertSound(soundObj, successCB, errorCB)`
+**用法：**`Setting.setMessageAlertSound(soundObj, successCB, errorCB)`  
 **示例：**
 
 ```js
@@ -92,7 +94,7 @@ soundObj = {
 ```
 
 ### 播放指定提醒音
-**用法：**`Setting.playSound(soundObj)`
+**用法：**`Setting.playSound(soundObj)`  
 **示例：**
 
 ```js

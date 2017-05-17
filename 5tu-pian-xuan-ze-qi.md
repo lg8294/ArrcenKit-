@@ -7,8 +7,9 @@
 * [window.imagePicker.getPictures](#选择图片)：选择图片
 
 ### 选择图片
-**用法：**`window.imagePicker.getPictures(successCB, failureCB[, options])`
+**用法：**`window.imagePicker.getPictures(successCB, failureCB[, options])`  
 **参数：**
+
 `options` 可选项：
 
     key | 描述
@@ -19,7 +20,7 @@
     quality | 图片质量（0-100），默认100
 
 
-**示例** - Get Full Size Images (all default options):
+**示例** - Get Full Size Images (all default options):  
 
 ```js
     window.imagePicker.getPictures(function(results) {
@@ -31,7 +32,7 @@
     });
 ```
 
-**示例** - Get at most 10 images scaled to width of 800:
+**示例** - Get at most 10 images scaled to width of 800:  
 
 ```js
     window.imagePicker.getPictures(function(results) {

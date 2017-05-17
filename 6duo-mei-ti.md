@@ -9,8 +9,9 @@
 * [navigator.device.capture.captureAudio](#录制音频)：录制音频
 
 ### 拍照
-**用法：**`navigator.device.capture.captureImage(successCB, failedCB[, options])`
+**用法：**`navigator.device.capture.captureImage(successCB, failedCB[, options])`  
 **参数：**
+
 `options` 可选项：
 
     key | 描述
@@ -40,8 +41,9 @@
 ```
 
 ### 录制视频
-**用法：**`navigator.device.capture.captureVideo(successCB, failedCB[, options])`
+**用法：**`navigator.device.capture.captureVideo(successCB, failedCB[, options])`  
 **参数：**
+
 `options` 可选项：
 
     key | 描述
@@ -72,8 +74,9 @@
 ```
 
 ### 录制音频
-**用法：**`navigator.device.capture.captureAudio(successCB, failedCB[, options])`
+**用法：**`navigator.device.capture.captureAudio(successCB, failedCB[, options])`  
 **参数：**
+
 `options` 可选项：
 
     key | 描述
