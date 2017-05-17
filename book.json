@@ -11,6 +11,7 @@
     "-lunr", "-search", "search-plus",
     "-highlight", "prism", "prism-themes",
     "tbfed-pagefooter",
+    "expandable-chapters-small",
     "sectionx",
     "-simple-page-toc",
     "anchor-navigation-ex",
