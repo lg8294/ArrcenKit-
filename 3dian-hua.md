@@ -2,15 +2,13 @@
 **模块名称：DialPhone**
 
 ## 方法
-* DialPhone.dial
-* DialPhone.getAllContacts
-* DialPhone.showAddressbook
+* [DialPhone.dial](#拨打电话)：拨打电话
+* [DialPhone.getAllContacts](#获取通讯录中所有联系人)：获取通讯录中所有联系人
+* [DialPhone.showAddressbook](#打开通讯录)：打开通讯录
 
 ### 拨打电话
-
-`DialPhone.dial("电话号码", successCB, failedCB)`
-
-example:
+**用法：**`DialPhone.dial("电话号码", successCB, failedCB)`
+**示例：**
 
 ```js
     DialPhone.dial("10086", function(){
@@ -20,8 +18,8 @@ example:
     })
 ```
 
-### 获取通讯录
-`DialPhone.getAllContacts(successCB, failedCB)`
+### 获取通讯录中所有联系人
+**用法：**`DialPhone.getAllContacts(successCB, failedCB)`
 
 ```js
     //联系人对象
@@ -38,7 +36,7 @@ example:
     }
 ```
 
-example:
+**示例：**
 
 ```js
     DialPhone.getAllContacts(function(contactObjList){
@@ -49,9 +47,8 @@ example:
 ```
 
 ### 打开通讯录
-`DialPhone.showAddressbook(successCB, failedCB)`
-
-example:
+**用法：**`DialPhone.showAddressbook(successCB, failedCB)`
+**示例：**
 
 ```js
     DialPhone.showAddressbook(function(contactObj){

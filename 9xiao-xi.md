@@ -2,7 +2,7 @@
 **模块名称：IMClient**
 
 ## 方法
-* IMClient.regist
+* [IMClient.regist](#验证用户)：验证用户
 * IMClient.receiveMessage
 * IMClient.sendChatMessage
 * IMClient.sendRoomMessage
@@ -11,16 +11,18 @@
 * IMClient.sendFriendApply
 
 ### 验证用户
-`IMClient.regist(targetId, project, successCB, failedCB)`
+**说明：**前端不要调用，框架已经包含了用户验证功能。
+**用法：**`IMClient.regist(targetId, project, successCB, failedCB)`
+**参数：**
 
-option | 描述
---- | ---
-targetId | `string` 用户ID，跟用户注册到IM的ID保持一致
-project | `string` 项目唯一标识名称（包名）
-successCB | `function` 成功回调
-failedCB | `function` 失败回调
+option | 类型 | 描述
+--- | ---| ---
+targetId | `String` | 用户ID，跟用户注册到IM的ID保持一致
+project | `String` | 项目唯一标识名称（包名）
+successCB | `Function` | 成功回调
+failedCB | `Function` | 失败回调
 
-example:
+**示例：**
 
 ```js
     IMClient.regist("15196614938", "net.arrcencloud.demo", function (result) {

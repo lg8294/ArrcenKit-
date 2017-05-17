@@ -8,9 +8,8 @@
 * [Navigation.setOrientation](#设置屏幕方向)：设置屏幕方向
 
 ### 退出登录
-`Navigation.logout(successCB, failedCB)`
-
-example:
+**用法：**`Navigation.logout(successCB, failedCB)`
+**示例：**
 
 ```js
     Navigation.logout(function () {
@@ -21,9 +20,8 @@ example:
 ```
 
 ### 修改密码
-`Navigation.changePassword(successCB, failedCB)`
-
-example:
+**用法：**`Navigation.changePassword(successCB, failedCB)`
+**示例：**
 
 ```js
     Navigation.changePassword(function () {
@@ -35,10 +33,8 @@ example:
 
 ### 获取cookie
 **支持平台**：iOS
-
-`Navigation.getCookie(successCB, failedCB)`
-
-example:
+**用法：**`Navigation.getCookie(successCB, failedCB)`
+**示例：**
 
 ```js
     Navigation.getCookie(function (obj) {
@@ -49,18 +45,18 @@ example:
 ```
 
 ### 设置屏幕方向
-`Navigation.setOrientation(orientation,successCB, failedCB)`
-
+**用法：**`Navigation.setOrientation(orientation,successCB, failedCB)`
+**参数：**
 `orientation` 可选项：
 
-    参数 | 描述
+    值 | 描述
     --- | ---
     0 | 竖屏 Portrait
     1 | 倒屏 Upside Down（iOS有效）
     2 | 左横屏 Landscape Left
     3 | 右横屏 Landscape Right
 
-example:
+**示例：**
 
 ```js
     //orientation: 0-Portrait,1-Upside Down,2-Landscape Left,3-Landscape Right

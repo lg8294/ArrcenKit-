@@ -3,13 +3,14 @@
 
 ## 方法
 
-* BaiduMap.getLocation
-* BaiduMap.getNearList
-* BaiduMap.getDistrict
-* BaiduMap.selectLocation
+* [BaiduMap.getLocation](#获取当前位置)：获取当前位置
+* [BaiduMap.getNearList](#获取附近POI列表)：获取附近POI列表
+* [BaiduMap.getDistrict](#获取区县位置)：获取区县位置
+* [BaiduMap.selectLocation](#选择位置)：选择位置
 
-### 获取当前位置（精确）
-`BaiduMap.getLocation(successCB, failedCB)`
+### 获取当前位置
+**说明：**误差控制在10米内。
+**用法：**`BaiduMap.getLocation(successCB, failedCB)`
 
 ```js
     // 位置信息对象
@@ -44,7 +45,7 @@
     //	}
 ```
 
-example:
+**示例：**
 
 ```js
     BaiduMap.getLocation(function(locationObj){
@@ -55,7 +56,7 @@ example:
 ```
 
 ### 获取附近POI列表
-`BaiduMap.getNearList(successCB, failedCB)`
+**用法：**`BaiduMap.getNearList(successCB, failedCB)`
 
 ```js
     // POI对象
@@ -87,7 +88,7 @@ example:
     //		"zip" : ""
     //	}
 ```
-example:
+**示例：**
 
 ```js
     BaiduMap.getNearList(function(object){
@@ -97,10 +98,10 @@ example:
     });
 ```
 
-### 获取区县位置（粗略）
-`BaiduMap.getDistrict(successCB, failedCB)`
-
-example:
+### 获取区县位置
+**说明：**粗略的获取大致位置，对精度不做要求。
+**用法：**`BaiduMap.getDistrict(successCB, failedCB)`
+**示例：**
 
 ```js
     BaiduMap.getDistrict(function(locationObj) {
@@ -111,16 +112,16 @@ example:
 ```
 
 ### 选择位置
-`BaiduMap.selectLocation(options ,successCB, failedCB)`
-
+**用法：**`BaiduMap.selectLocation(options ,successCB, failedCB)`
+**参数：**
 `options` 可选项：
 
-    key | 描述
-    ----- | -----
-    width | 图片宽度
-    height | 图片高度
+    key | type | 默认值 | 描述
+    ----- | ----- | ----- | -----
+    width | Number | 300 | 图片宽度，单位px
+    height| Number | 200 | 图片高度，单位px
 
-example:
+**示例：**
 
 ```js
     BaiduMap.selectLocation({

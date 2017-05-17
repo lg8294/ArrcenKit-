@@ -21,7 +21,7 @@
 * StatusBar.show
 
 ### 状态栏文本颜色
-example:
+**示例：**
 
 ```js
     StatusBar.styleDefault(); // 黑色文本
@@ -29,7 +29,7 @@ example:
 ```
 
 ### 状态栏颜色
-example:
+**示例：**
 
 ```js
     StatusBar.backgroundColorByHexString("#333"); // => #333333
@@ -37,15 +37,9 @@ example:
 ```
 
 ### 状态栏隐藏和显示
-
-example - 隐藏:
+**示例：**
 
 ```js
     StatusBar.hide();//隐藏
-```
-
-example - 显示:
-
-```js
     StatusBar.show();//显示
 ```

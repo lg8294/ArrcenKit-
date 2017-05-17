@@ -11,14 +11,14 @@ soundObj = {
 ```
 
 ## 方法
-* Setting.getMessageAlertSoundList
-* Setting.setSoundAlert
-* Setting.setVibrateAlert
-* Setting.setMessageAlertSound
-* Setting.playSound
+* [Setting.getMessageAlertSoundList](#获取消息提醒声音列表)：获取消息提醒声音列表
+* [Setting.setSoundAlert](#设置声音提醒开关)：设置声音提醒开关
+* [Setting.setVibrateAlert](#设置震动开关)：设置震动开关
+* [Setting.setMessageAlertSound](#设置指定提醒音为当前消息提醒音)：设置指定提醒音为当前消息提醒音
+* [Setting.playSound](#播放指定提醒音)：播放指定提醒音
 
 ### 获取消息提醒声音列表
-`Setting.getMessageAlertSoundList(successCB, failedCB)`
+**用法：**`Setting.getMessageAlertSoundList(successCB, failedCB)`
     
 ```js
     //成功对象
@@ -33,7 +33,7 @@ soundObj = {
     }
 ```
 
-example:
+**示例：**
 
 ```js
 	Setting.getMessageAlertSoundList(function(successObj){
@@ -43,15 +43,15 @@ example:
 	});
 ```
 
-### 设置声音提醒是否打开
-`Setting.setSoundAlert(enable, successCB, errorCB)`
-
+### 设置声音提醒开关
+**用法：**`Setting.setSoundAlert(enable, successCB, errorCB)`
+**参数：**
 `enable` 可选项：
 
 * true：打开声音提醒
 * false：关闭声音提醒
 
-example:
+**示例：**
 
 ```js
 	Setting.setSoundAlert(true, function(){
@@ -61,15 +61,15 @@ example:
 	});
 ```
 
-### 设置震动是否打开
-`Setting.setVibrateAlert(enable, successCB, errorCB)`
-
+### 设置震动开关
+**用法：**`Setting.setVibrateAlert(enable, successCB, errorCB)`
+**参数：**
 `enable` 可选项：
 
 * true：打开震动提醒
 * false：关闭震动提醒
 
-example:
+**示例：**
 
 ```js
 	Setting.setVibrateAlert(true, function(){
@@ -79,10 +79,9 @@ example:
 	});
 ```
 
-### 设置消息提醒声音
-`Setting.setMessageAlertSound(soundObj, successCB, errorCB)`
-
-example:
+### 设置指定提醒音为当前消息提醒音
+**用法：**`Setting.setMessageAlertSound(soundObj, successCB, errorCB)`
+**示例：**
 
 ```js
     Setting.setMessageAlertSound(soundObj, function(){
@@ -92,10 +91,9 @@ example:
     });
 ```
 
-### 播放提醒音
-`Setting.playSound(soundObj)`
-
-example:
+### 播放指定提醒音
+**用法：**`Setting.playSound(soundObj)`
+**示例：**
 
 ```js
     Setting.playSound(soundObj);

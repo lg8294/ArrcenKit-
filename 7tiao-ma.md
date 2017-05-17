@@ -4,12 +4,12 @@
 [使用说明](https://github.com/phonegap/phonegap-plugin-barcodescanner)
 
 ## 方法
-* BarcodeScanner.scan
-* BarcodeScanner.encode
+* [BarcodeScanner.scan](#扫码)：扫码
+* [BarcodeScanner.encode](#生成码)：生成码
 
 ### 扫码
-`BarcodeScanner.scan(successCB, failedCB[, options])`
-
+**用法：**`BarcodeScanner.scan(successCB, failedCB[, options])`
+**参数：**
 `options` 可选项：
 
     key | 描述
@@ -25,7 +25,7 @@
     disableAnimations | 布尔值，禁用动画（支持iOS）
     disableSuccessBeep | 布尔值，禁用成功后响声（支持iOS）
     
-example:
+**示例：**
 
 ```js
     BarcodeScanner.scan(function (result) {
@@ -41,9 +41,9 @@ example:
     });
 ```
 
-### 生成
-`BarcodeScanner.encode(type, data, successCB, failedCB[, options])`
-
+### 生成码
+**用法：**`BarcodeScanner.encode(type, data, successCB, failedCB[, options])`
+**参数：**
 `type` 可选项：
 
 * BarcodeScanner.Encode.TEXT_TYPE
@@ -59,7 +59,7 @@ example:
     width | 条形码宽度，默认300px
     hight | 条形码高度，默认50px
 
-example:
+**示例：**
 
 ```js
     BarcodeScanner.encode(BarcodeScanner.Encode.TEXT_TYPE, "http://www.nytimes.com", function(success) {
