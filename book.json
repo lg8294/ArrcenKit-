@@ -11,7 +11,7 @@
     "-lunr", "-search", "search-plus",
     
     "prism",
-    "-highlight",
+    "-highlight"
   ],
   "pluginsConfig": {
     "edit-link": {
