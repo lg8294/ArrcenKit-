@@ -4,6 +4,9 @@
     "author": "lg",
     "language": "zh-hans",
     "root": ".",
+    "styles": {
+        "website": "styles/website.css"
+    },
     "plugins": [
         "-fontsettings",
         "-sharing",
