@@ -75,7 +75,7 @@
 
 ## 示例代码
 
-[import](test.js)
+[import](net.arrcencloud.config.json)
 
 ```json
 {
