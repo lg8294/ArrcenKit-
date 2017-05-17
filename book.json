@@ -9,7 +9,8 @@
     "-sharing",
     "splitter",
     "-lunr", "-search", "search-plus",
-    "-highlight", "prism", "prism-themes"
+    "-highlight", "prism", "prism-themes",
+    "tbfed-pagefooter"
   ],
   "pluginsConfig": {
     
@@ -17,6 +18,11 @@
         "css": [
             "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
         ]
+    },
+    "tbfed-pagefooter": {
+        "copyright":"Copyright &copy zhangjikai.com 2017",
+        "modify_label": "该文件修订时间：",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
     }
   },
   "links": {
