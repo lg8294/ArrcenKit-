@@ -17,10 +17,10 @@
 
 ## IM配置项
 
-| 键 | 类型 | 默认值 | 描述 | 值 |
+键 | 类型 | 默认值 | 描述 | 值
 ----|----|----|----|----
-|"Url"|String|空|IM服务地址|正式环境：http://im.arrcencloud.net:7080<br />开发环境：http://eaicz.com:7080|
-|"Project"|String|空|IM中传的项目名|目前统一使用项目包名|
+"Url"|String|空|IM服务地址|正式环境：http://im.arrcencloud.net:7080<br />开发环境：http://eaicz.com:7080
+"Project"|String|空|IM中传的项目名|目前统一使用项目包名
 
 ## Web配置项
 
