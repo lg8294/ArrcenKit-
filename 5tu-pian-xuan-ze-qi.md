@@ -1,16 +1,16 @@
-## 5.图片选择器
+# 图片选择器
 **模块名称：==imagePicker==**
 [ngcordova](http://ngcordova.com/docs/plugins/imagePicker)
 [使用说明](https://github.com/wymsee/cordova-imagePicker)
 
 ****
 
-#### 方法
+## 方法
 * window.imagePicker.getPictures
 
 ****
 
-#### 选择图片
+## 选择图片
 `window.imagePicker.getPictures(successCB, failureCB[, options])`
 
 `options` 可选项：

@@ -24,5 +24,4 @@
 * [消息](9xiao-xi.md)
 * [分享](10fen-xiang.md)
 * [设备信息](11she-bei-xin-xi.md)
-* [支付](12zhi-fu.md)
 

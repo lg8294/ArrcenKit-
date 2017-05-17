@@ -1,9 +1,9 @@
-## 2.导航
+# 导航
 **模块名称：==Navigation==**
 
 ****
 
-#### 方法
+## 方法
 * Navigation.logout
 * Navigation.changePassword
 * Navigation.getCookie
@@ -11,7 +11,7 @@
 
 ****
 
-#### 退出登录
+## 退出登录
 `Navigation.logout(successCB, failedCB)`
 
 example:
@@ -26,7 +26,7 @@ example:
 
 ****
 
-#### 密码修改
+## 密码修改
 `Navigation.changePassword(successCB, failedCB)`
 
 example:
@@ -41,7 +41,7 @@ example:
 
 ****
 
-#### 获取cookie（iOS）
+## 获取cookie（iOS）
 `Navigation.getCookie(successCB, failedCB)`
 
 example:
@@ -56,7 +56,7 @@ example:
 
 ****
 
-#### 设置屏幕方向
+## 设置屏幕方向
 `Navigation.setOrientation(orientation,successCB, failedCB)`
 
 `orientation` 可选项：

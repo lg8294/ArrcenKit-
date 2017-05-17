@@ -1,9 +1,9 @@
-## 消息
+# 消息
 **模块名称：==IMClient==**
 
 ****
 
-#### 方法
+## 方法
 * IMClient.regist
 * IMClient.receiveMessage
 * IMClient.sendChatMessage
@@ -14,7 +14,7 @@
 
 ****
 
-#### 验证用户
+## 验证用户
 `IMClient.regist(targetId, project, successCB, failedCB)`
 
 option | 描述
@@ -36,7 +36,7 @@ example:
 
 ****
 
-### 消息接收回调
+## 消息接收回调
 `IMClient.receiveMessage(receiveCB, errorCB)`
 
 option | 描述
@@ -56,7 +56,7 @@ example:
 
 ****
 
-### 发送单聊消息
+## 发送单聊消息
 `IMClient.sendChatMessage(msg, msgType, targetId, project, voiceLength, successCB, failedCB)`
 
 option | 描述
@@ -81,7 +81,7 @@ example:
 
 ****
 
-### 发送群聊消息
+## 发送群聊消息
 `IMClient.sendRoomMessage(msg, msgType, targetId, pass, voiceLength, successCB, failedCB)`
 
 option | 描述
@@ -106,7 +106,7 @@ example:
 
 ****
 
-### 发送通知消息
+## 发送通知消息
 `IMClient.sendInformsMessage(msg, msgType, targetIds, project, title, pushType, successCB, failedCB)`
 
 option | 描述
@@ -132,7 +132,7 @@ example:
 
 ****
 
-### 发送好友请求
+## 发送好友请求
 `IMClient.sendFriendApply(msg, ftype, targetId, project, successCB, failedCB)`
 
 option | 描述

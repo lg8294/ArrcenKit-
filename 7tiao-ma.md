@@ -1,17 +1,17 @@
-## 7.条码、二维码
+# 条码、二维码
 **模块名称：==BarcodeScanner==**
 [ngcordova](http://ngcordova.com/docs/plugins/barcodeScanner/)
 [使用说明](https://github.com/phonegap/phonegap-plugin-barcodescanner)
 
 ****
 
-#### 方法
+## 方法
 * BarcodeScanner.scan
 * BarcodeScanner.encode
 
 ****
 
-#### 扫码
+## 扫码
 `BarcodeScanner.scan(successCB, failedCB[, options])`
 
 `options` 可选项：
@@ -47,7 +47,7 @@ example:
 
 ****
 
-#### 生成
+## 生成
 `BarcodeScanner.encode(type, data, successCB, failedCB[, options])`
 
 `type` 可选项：
