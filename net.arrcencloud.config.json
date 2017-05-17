@@ -1,0 +1,49 @@
+{
+  "DefaultAccount": "",
+  
+  "ClientId": "",
+  "RedirectUrl": "",
+  
+  "UserCenterUrl": "",
+  "IM": {
+    "Url": "",
+    "Project": ""
+  },
+  
+  "Web": {
+    "BusinessUrl": "",
+    "GuidePath": "/www/loadpage",
+    "UserAgreementPath": "/www/user-agreement/user-agreement.html",
+    "DefaultVersion":"1.0"
+  },
+  
+  "ProductCategory": 0,
+  "VerificationMode": 0,
+  "UI": {
+    "ThemeColor": "",
+    "KeyDownColor": "",
+    "ProductLogo": "",
+    "ProductEnName": "",
+    "ProductCnName": "",
+    "Copyright": "",
+    "StartPage": "",
+    "UpdatePageTopColor": "",
+    "UpdatePageBottomColor": "",
+    "UpdateProgressBackgroundColor": ""
+  },
+  "Map": {
+    "BaiduApiKey": ""
+  },
+  "QQ": {
+    "AppId": ""
+  },
+  "Wechat": {
+    "AppId": "",
+    "AppSecret":""
+  },
+  "Weibo": {
+    "AppKey": "",
+    "AppSecret": "",
+    "RedirectUrl": ""
+  }
+}

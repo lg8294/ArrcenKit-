@@ -74,6 +74,9 @@
 "RedirectUrl"|String|空|微信SDK 授权回调地址
 
 ## 示例代码
+
+[import](test.js)
+
 ```json
 {
   "DefaultAccount": "",
