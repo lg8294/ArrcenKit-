@@ -9,6 +9,7 @@
 * [iOS 接入方式](iosjie-ru-fang-shi.md)
 * [Android 接入方式](androidjie-ru-fang-shi.md)
 * [项目配置项](xiang-mu-pei-zhi-xiang.md)
+* [错误码说明](cuo-wu-ma-shuo-ming.md)
 
 ## 组件
 
