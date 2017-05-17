@@ -10,8 +10,8 @@
     
     "-lunr", "-search", "search-plus",
     
-    "prism",
-    "-highlight"
+    
+    "-highlight", "prism", "prism-themes"
   ],
   "pluginsConfig": {
     "edit-link": {
