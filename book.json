@@ -6,7 +6,7 @@
   "root": ".",
   "plugins": [
     "-fontsettings",
-    "-sharing",
+    "sharing",
     "splitter",
     "-lunr", "-search", "search-plus",
     "-highlight", "prism", "prism-themes"
