@@ -13,7 +13,7 @@
     "tbfed-pagefooter",
     "sectionx",
     "-simple-page-toc",
-    "-anchor-navigation-ex",
+    "anchor-navigation-ex",
     "theme-comscore"
   ],
   "pluginsConfig": {
