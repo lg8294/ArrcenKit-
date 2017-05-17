@@ -5,7 +5,7 @@
   "language": "zh-hans",
   "root": ".",
   "plugins": [
-    
+    "splitter",
     "-lunr", "-search", "search-plus",
     "-highlight", "prism", "prism-themes"
   ],
