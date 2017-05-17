@@ -21,7 +21,7 @@
         "theme": "sepia",
         "family": "serif",
         "size": 1
-    }
+    },
     "prism": {
         "css": [
             "prism-themes/themes/prism-xonokai.css"
