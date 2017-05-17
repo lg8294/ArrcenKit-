@@ -5,7 +5,7 @@
   "language": "zh-hans",
   "root": ".",
   "plugins": [
-    "fontsettings",
+    "-fontsettings",
     "-sharing",
     "splitter",
     "-lunr", "-search", "search-plus",
