@@ -5,19 +5,11 @@
   "language": "zh-hans",
   "root": ".",
   "plugins": [
-    "edit-link", 
-    "-fontsettings", 
     
     "-lunr", "-search", "search-plus",
-    
-    
     "-highlight", "prism", "prism-themes"
   ],
   "pluginsConfig": {
-    "edit-link": {
-      "base": "https://github.com/vuejs/vue-router/edit/dev/docs",
-      "label": "Edit This Page"
-    },
     
     "prism": {
         "css": [
