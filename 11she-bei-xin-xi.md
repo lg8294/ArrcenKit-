@@ -3,12 +3,12 @@
 
 ****
 
-## 方法
+### 方法
 * Device.getInfo
 
 ****
 
-## 获取设备信息
+### 获取设备信息
 `Device.getInfo(successCB, failedCB)`
 
 example:
