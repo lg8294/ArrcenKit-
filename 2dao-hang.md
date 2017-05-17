@@ -3,7 +3,7 @@
 
 ****
 
-### 方法
+## 方法
 * Navigation.logout
 * Navigation.changePassword
 * Navigation.getCookie

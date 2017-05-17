@@ -5,7 +5,7 @@
 
 ****
 
-### 方法
+## 方法
 * navigator.device.capture.captureAudio
 * navigator.device.capture.captureImage
 * navigator.device.capture.captureVideo

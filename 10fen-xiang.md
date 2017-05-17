@@ -3,14 +3,12 @@
 
 ****
 
-### 方法
-* Share.send
-
-****
-
 ### 消息对象
 
 ****
+
+## 方法
+* Share.send
 
 ### 发送分享
 `Share.send(type,msgObj,successCB,failedCB)`

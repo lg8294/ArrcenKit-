@@ -3,7 +3,7 @@
 
 ****
 
-### 方法
+## 方法
 * IMClient.regist
 * IMClient.receiveMessage
 * IMClient.sendChatMessage
@@ -11,8 +11,6 @@
 * IMClient.sendRoomMessage
 * IMClient.sendFriendApply
 * IMClient.sendFriendApply
-
-****
 
 ### 验证用户
 `IMClient.regist(targetId, project, successCB, failedCB)`

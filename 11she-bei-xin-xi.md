@@ -1,12 +1,10 @@
 # 设备信息
 **模块名称：Device**
 
-****
+---
 
-### 方法
+## 方法
 * Device.getInfo
-
-****
 
 ### 获取设备信息
 `Device.getInfo(successCB, failedCB)`
@@ -22,5 +20,5 @@ example:
 		alert(msg);
 	});
 ```
-
+----
 

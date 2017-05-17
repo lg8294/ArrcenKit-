@@ -3,7 +3,7 @@
 
 ****
 
-### 方法
+## 方法
 * DialPhone.dial
 * DialPhone.getAllContacts
 * DialPhone.showAddressbook

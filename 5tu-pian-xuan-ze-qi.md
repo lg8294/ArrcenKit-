@@ -5,7 +5,7 @@
 
 ****
 
-### 方法
+## 方法
 * window.imagePicker.getPictures
 
 ****

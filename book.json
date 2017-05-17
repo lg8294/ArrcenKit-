@@ -17,7 +17,8 @@
         "anchor-navigation-ex",
         "theme-comscore",
         "donate",
-        "-include-codeblock"
+        "-include-codeblock",
+        "expandable-chapters-small"
     ],
     "pluginsConfig": {
         "theme-default": {
@@ -39,7 +40,7 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "sectionx": {
-            "tag": "b"
+            "tag": "h3"
         },
         "simple-page-toc": {
             "maxDepth": 3,
@@ -74,7 +75,8 @@
             "template": "default",
             "unindent": true,
             "theme": "monokai"
-        }
+        },
+        "expandable-chapters-small":{}
     },
     "links": {
         "sharing": {

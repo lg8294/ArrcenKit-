@@ -12,7 +12,7 @@ soundObj = {
 
 ****
 
-### 方法
+## 方法
 * Setting.getMessageAlertSoundList
 * Setting.setSoundAlert
 * Setting.setVibrateAlert
