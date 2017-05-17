@@ -1,25 +1,25 @@
 # Android接入方式
-## 1.下载ArrcenKit.framework
+## 下载ArrcenKit.framework
 
-## 2.创建Android工程
+## 创建Android工程
 
-## 3.导入libs
+## 导入libs
 拷贝 `libs` 下的文件到工程 `app/libs` 目录下，如下图：
 ![](/image/Android/2.1.png)
 ![](/image/Android/2.2.png)
 
-## 4.导入jniLibs
+## 导入jniLibs
 拷贝 `jniLibs` 文件夹到工程 `app/src/main` 目录下，如下图：
 ![](/image/Android/3.0.png)
 ![](/image/Android/3.1.png)
 
-## 5.导入wxapi
+## 导入wxapi
 拷贝 `wxapi` 文件夹到工程 `app/src/main/java/{包名}` 目录下，如下图：
 ![](/image/Android/9.1.png)
 ![](/image/Android/9.0.png)
 ![](/image/Android/9.2.png)
 
-## 6.配置app下的build.gradle
+## 配置app下的build.gradle
 添加
 
 ```
@@ -56,7 +56,7 @@
 ![](/image/Android/4.0.png)
 ![](/image/Android/4.1.png)
 
-## 7.修改AndroidManifest.xml
+## 修改AndroidManifest.xml
 用下面的代码覆盖 `activity` ：
 ```xml
     <activity
@@ -100,11 +100,11 @@
 ![](/image/Android/5.0.png)
 ![](/image/Android/5.1.png)
 
-## 8.配置gradle.properites
+## 配置gradle.properites
 添加  `android.useDeprecatedNdk=true`
 ![](/image/Android/6.0.png)
 
-## 9.添加项目配置文件
+## 添加项目配置文件
 在工程 `app/main` 目录下新建 `assets` 文件夹：
 ![](/image/Android/7.0.png)
 ![](/image/Android/7.1.png)
@@ -113,5 +113,5 @@
 ![](/image/Android/8.0.png)
 ![](/image/Android/8.1.png)
 
-## 10.导入www.zip文件
+## 导入www.zip文件
 拷贝www.zip到 `assets` 目录下。
