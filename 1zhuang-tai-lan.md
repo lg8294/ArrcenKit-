@@ -1,12 +1,11 @@
-# 
-## 1.状态栏
+# 状态栏
 **模块名称：==StatusBar==**
 [ngcordova](https://www.npmjs.com/package/cordova-plugin-statusbar)
 [使用说明](https://github.com/apache/cordova-plugin-statusbar)
 
 ****
 
-### 方法
+## 方法
 
 * StatusBar.overlaysWebView
 * StatusBar.styleDefault
@@ -20,13 +19,13 @@
 
 ****
 
-### 属性
+## 属性
 
 * StatusBar.isVisible
 
 ****
 
-### 状态栏文本颜色
+## 状态栏文本颜色
 example:
 
 ```js
@@ -36,7 +35,7 @@ example:
 
 ****
 
-### 状态栏颜色
+## 状态栏颜色
 example:
 
 ```js
@@ -46,7 +45,7 @@ example:
 
 ****
 
-### 状态栏隐藏和显示
+## 状态栏隐藏和显示
 
 example - 隐藏:
 
