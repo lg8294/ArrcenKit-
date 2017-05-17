@@ -5,7 +5,13 @@
 
 ****
 
-### 方法
+## 属性
+
+* StatusBar.isVisible
+
+****
+
+## 方法
 
 * StatusBar.overlaysWebView
 * StatusBar.styleDefault
@@ -16,12 +22,6 @@
 * StatusBar.backgroundColorByHexString
 * StatusBar.hide
 * StatusBar.show
-
-****
-
-### 属性
-
-* StatusBar.isVisible
 
 ****
 
