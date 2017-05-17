@@ -20,7 +20,7 @@
     ],
     "pluginsConfig": {
         "theme-default": {
-            "showLevel": true
+            "showLevel": false
         },
         "fontsettings": {
             "theme": "sepia",
