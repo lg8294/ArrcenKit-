@@ -15,10 +15,10 @@
         "-highlight", "prism", "prism-themes",
         "tbfed-pagefooter",
         "-expandable-chapters-small",
-        "sectionx",
-        "simple-page-toc",
+        "-sectionx",
+        "-simple-page-toc",
         "-anchor-navigation-ex",
-        "theme-comscore",
+        "-theme-comscore",
         "donate",
         "-include-codeblock"
     ],
