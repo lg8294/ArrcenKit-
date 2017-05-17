@@ -20,7 +20,7 @@
         "-anchor-navigation-ex",
         "theme-comscore",
         "donate",
-        "-include-codeblock",
+        "-include-codeblock"
     ],
     "pluginsConfig": {
         "theme-default": {
