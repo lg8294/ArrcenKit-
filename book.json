@@ -14,14 +14,13 @@
         "-lunr", "-search", "search-plus",
         "-highlight", "prism", "prism-themes",
         "tbfed-pagefooter",
-        "expandable-chapters-small",
+        "-expandable-chapters-small",
         "sectionx",
         "-simple-page-toc",
-        "anchor-navigation-ex",
+        "-anchor-navigation-ex",
         "theme-comscore",
         "donate",
         "-include-codeblock",
-        "expandable-chapters-small"
     ],
     "pluginsConfig": {
         "theme-default": {
@@ -78,8 +77,7 @@
             "template": "default",
             "unindent": true,
             "theme": "monokai"
-        },
-        "expandable-chapters-small":{}
+        }
     },
     "links": {
         "sharing": {
